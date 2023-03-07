@@ -31,7 +31,11 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
-
+  .imgLogo {
+    min-width: 70% !important;
+    height: auto !important;
+  }
 `;
+
 
 export default GlobalStyles;

@@ -2,39 +2,37 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import {  FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, SocialContainer} from './FooterStyles';
 
 const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
+          <LinkTitle>Contact Details</LinkTitle>
+          <LinkItem href="mailto:hectormqm@gmail.com">
+            hectormqm@gmail.com
           </LinkItem>
         </LinkColumn>
-      </LinkList>
-      <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
-        </CompanyContainer>
+        <LinkColumn>
+        <LinkTitle>Socials</LinkTitle>
+        <LinkItem>
+      
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/HMQM-0">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.linkedin.com/in/hector-manuel-qui%C3%B1onez-56a0a51b2/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.instagram.com/rockelector/?hl=es">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
-      </SocialIconsContainer>
+      </LinkItem>
+        </LinkColumn>
+      </LinkList>
+      
     </FooterWrapper>
   );
 };

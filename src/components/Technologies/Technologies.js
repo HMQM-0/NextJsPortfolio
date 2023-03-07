@@ -6,50 +6,51 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>TechStack</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+    Fullstack using MERN development with javascript as the base language for all projects.
+     WordPress Specialist PHP & SQL, templates and plugings building.
     </SectionText>
     <List>
       <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
+       
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Experience with <br />
+            JAVASCRIPT / REACT / NEXT.JS<br />
+            WORDPRESS / WOOCOMMMERCE<br />
+            HTML / CSS / BUILDER.IO<br />
+            SASS / BOOTSTRAP / MAT-UI
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
+       
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            NODEJS / TYPESCRIPT<br />
+            PHP <br />
+            MONGODB / MySQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
+       
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            PHOTOSHOP  <br />
+            ILLUSTRATOR <br />
+            FIGMA <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider colorAlt />
+    <SectionDivider/>
   </Section>
 );
 

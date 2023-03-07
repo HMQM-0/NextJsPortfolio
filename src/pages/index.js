@@ -1,5 +1,4 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
-import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
+import Image from 'next/image';
 import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
@@ -12,12 +11,14 @@ const Home = () => {
     <Layout>
       <Section grid>
         <Hero />
-        <BgAnimation />
+        <Image className='imgLogo' src='/logoTransp2.svg'  width="200px" height="200px"></Image>
       </Section>
-      <Projects />
-      <Technologies />
       <Timeline />
-      <Acomplishments />
+      <Technologies />
+      <Projects />
+    
+     
+     
     </Layout>
   );
 };
