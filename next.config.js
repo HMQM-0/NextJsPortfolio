@@ -1,4 +1,8 @@
 module.exports = {
+    images: {
+        loader: 'akamai',
+        path: '',
+      },
     reactStrictMode: false,
     poweredByHeader: false,
     webpack: (config, { dev, isServer }) => {
