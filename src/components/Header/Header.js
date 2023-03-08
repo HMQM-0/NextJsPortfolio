@@ -40,10 +40,7 @@ const Header = () =>  (
         <SocialIcons href="https://github.com/HMQM-0" target='_blank' >
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.instagram.com/rockelector/?hl=es" target='_blank' >
-          <AiFillInstagram size="3rem" />
-        </SocialIcons>
-       
+        
       </Div3>
     </Container>
 );
