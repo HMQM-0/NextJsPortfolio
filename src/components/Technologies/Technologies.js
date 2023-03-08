@@ -1,11 +1,9 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider divider />
     <SectionTitle>TechStack</SectionTitle>
     <SectionText>
     Fullstack using MERN development with javascript as the base language for all projects.
@@ -17,7 +15,6 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
             JAVASCRIPT / REACT / NEXT.JS<br />
             WORDPRESS / WOOCOMMMERCE<br />
             HTML / CSS / BUILDER.IO<br />
@@ -30,7 +27,6 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
             NODEJS / TYPESCRIPT<br />
             PHP <br />
             MONGODB / MySQL
@@ -42,7 +38,6 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br />
             PHOTOSHOP  <br />
             ILLUSTRATOR <br />
             FIGMA <br />
@@ -50,7 +45,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider/>
+   
   </Section>
 );
 

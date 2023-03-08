@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'E-commerce with NextJS & GraphQL',
-    description: "The website's core functionality appears to be centered around a pet screening process that involves the submission of an online pet application, verification of pet ownership and veterinary records, and the assessment of a pet's behavior and suitability for a particular rental property.",
+    description: "The website's core functionality is centered around a pet screening process that involves the submission of an online pet application, verification of pet ownership and veterinary records, and the assessment of a pet's behavior and suitability for a particular rental property.",
       image: '/images/petscreening.jpg',
       tags: ['NextJS', 'GraphQL','Builder.io'],
     source: 'https://github.com/HMQM-0',
@@ -37,10 +37,3 @@ export const projects = [
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
-];

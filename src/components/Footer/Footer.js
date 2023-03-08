@@ -19,13 +19,13 @@ const Footer = () => {
         <LinkItem>
       
         <SocialContainer>
-          <SocialIcons href="https://github.com/HMQM-0">
+          <SocialIcons href="https://github.com/HMQM-0" target='_blank' >
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/hector-manuel-qui%C3%B1onez-56a0a51b2/">
+          <SocialIcons href="https://www.linkedin.com/in/hector-manuel-qui%C3%B1onez-56a0a51b2/" target='_blank' >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/rockelector/?hl=es">
+          <SocialIcons href="https://www.instagram.com/rockelector/?hl=es" target='_blank' >
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>

@@ -15,30 +15,32 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
-      <li>
-        <Link href="#work">
-          <NavLink>The Work</NavLink>
+    <li>
+        <Link href="#about">
+          <NavLink>Me</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#tech">
           <NavLink>TechStack</NavLink>
         </Link>
-      </li>        
+      </li>    
       <li>
-        <Link href="#about">
-          <NavLink>Me</NavLink>
+        <Link href="#work">
+          <NavLink>The Work</NavLink>
         </Link>
-      </li>        
+      </li>
+         
+           
     </Div2>
       <Div3>
-      <SocialIcons href="https://www.linkedin.com/in/hector-manuel-qui%C3%B1onez-56a0a51b2/">
+      <SocialIcons href="https://www.linkedin.com/in/hector-manuel-qui%C3%B1onez-56a0a51b2/" target='_blank' >
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://github.com/HMQM-0">
+        <SocialIcons href="https://github.com/HMQM-0" target='_blank' >
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.instagram.com/rockelector/?hl=es">
+        <SocialIcons href="https://www.instagram.com/rockelector/?hl=es" target='_blank' >
           <AiFillInstagram size="3rem" />
         </SocialIcons>
        

@@ -35,6 +35,9 @@ const GlobalStyles = createGlobalStyle`
     min-width: 70% !important;
     height: auto !important;
   }
+  #tech{
+    margin:2em auto;
+  }
 `;
 
 
